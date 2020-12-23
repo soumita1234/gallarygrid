@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallary using Grid</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<!--link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<style type="text/css">
+		.flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        body{
+          	padding-top: 70px;
+          }
+       .jumbotron{
+       	color: #2c3e50;
+       }
+       .navbar-inverse{
+       	background:#2c3e50;
+       }
+       .navbar-inverse .navbar-nav>li>a {
+       	color: white;
+       }
+       .navbar-inverse .navbar-brand{
+       	color: white;
+       }
+	</style>
+
+</head>
+<body>
+	<nav class=" navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			<a  class="navber-brand" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>IMAGES</a>
+		</div>
+		<div class="collapse navbar-collapse" id="ba-nav-demo">
+			<ul class="nav navbar-nav">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Content</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Share</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</div>
+	</div>
+	</nav>
+
+  <div class="container">
+      <div class="jumbotron">
+    	<h1><!--span class="glyphicon glyphicon-camera" aria-hidden="true"></span--><i class="fas fa-camera-retro"></i>  The Image Galary</h1>
+    	<p>The Beautiful Collection Of Pictures Here.</p>
+     </div>
+     <div class="row flex">
+     	<div class="col-lg-4 col-md-6">
+     		<div class="thumbnail">
+     			<img src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-6">
+     		<div class="thumbnail">
+     			<img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F922622284%2F960x0.jpg%3Ffit%3Dscale">
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-6">
+     		<div class="thumbnail">
+     			<img src="https://images.unsplash.com/photo-1469827160215-9d29e96e72f4?ixlib=rb-1.2.1&w=1000&q=80">
+     		</div>
+     	</div> 
+
+     	<div class="col-lg-4 col-md-6">
+     		<div class="thumbnail">
+     			<img src="https://ssl.tzoo-img.com/images/blog/2019/4/9/Brooklyn-Botanic-Garden-NewYork-iStock-474056854.jpg?width=412&spr=3">
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-6">
+     		<div class="thumbnail">
+     			<img src="https://www.thephotoargus.com/wp-content/uploads/2019/02/peacocks01.jpg">
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-6">
+     		<div class="thumbnail">
+     			<img src="https://farm9.staticflickr.com/8154/7293218144_73df8ce274_b.jpg">
+     		</div>
+     	</div>
+
+     	<div class="col-lg-4 col-md-6">
+     		<div class="thumbnail">
+     			<img src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-6">
+     		<div class="thumbnail">
+     			<img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F922622284%2F960x0.jpg%3Ffit%3Dscale">
+     		</div>
+     	</div>
+     	<div class="col-lg-4 col-md-6 ">
+     		<div class="thumbnail">
+     			<img src="https://images.unsplash.com/photo-1469827160215-9d29e96e72f4?ixlib=rb-1.2.1&w=1000&q=80">
+     		</div>
+     	</div>
+
+
+  </div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.5.0.js"
+  integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
